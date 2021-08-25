@@ -17,6 +17,13 @@ footer {
     /*background-color: #8A8A8A;*/
 }
 
+.nav-languages, .nav-languages a {
+    color: #FFFFFF!important;
+}
+.nav-languages a:hover {
+    color: #FCB750!important;
+}
+
 .content-background-tenant {
     background: url("images/background-tenant.jpeg") no-repeat bottom center;
 }
@@ -108,6 +115,9 @@ input:focus, button:focus, button:active, select:focus, select:active {
 
 .fa-check-circle:before {
     content: "\f058"; }
+
+.fa-globe:before {
+    content: "\1f310"; }
 
 .fa,
 .fas {
